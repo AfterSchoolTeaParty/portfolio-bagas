@@ -1,0 +1,105 @@
+#jumbotron, #projects, #footer{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 50%;
+}
+#jumbotron, #footer, #projects{
+	background-image: url('../img/pict (1).jpg');
+}
+
+/*#jumbotron{
+	position: relative;
+	z-index: 1;
+}*/
+.opac-7{
+	opacity: 0.7;
+}
+
+.footer{
+	height: 10rem !important;
+	display: flex;
+	align-items: center;
+}
+
+.text-sunday{
+	color: white;
+}
+
+#search-box{
+	position: relative;
+	z-index: 2;
+	margin-top: -80px;
+	background-color: white;
+}
+
+.bg-sunday{
+	background-color: white;
+}
+
+.f-roboto{
+	font-family: 'Roboto Mono', monospace;
+}
+
+.height-10-rem{
+	height: 10rem;
+}
+
+.news{
+	overflow-y: hidden;
+	height: 20rem;
+	border-width: 5px!important;
+}
+
+.my-nav-link{
+	text-decoration: none;
+}
+
+
+
+.footer-item{
+	background-color: white;
+	opacity: 0.5;
+	width: 60%;
+	height: 2rem;
+	text-align: center;
+}
+
+
+@media(max-width: 768px){
+	.my-nav{
+		visibility: hidden;
+	}
+	.mobVisible{
+		visibility: visible;
+	}
+	.mobHidden{
+		visibility: hidden;
+	}
+}
+
+@media(min-width: 768px){
+	#jumbotron{
+		margin-top: -90px;
+	}
+	.pcVisible{
+		visibility: visible;
+	}
+	.pcHidden{
+		visibility: hidden;
+	}
+	.my-nav{
+		padding-top: 1rem;
+		visibility: visible;
+		width: 100%;
+	}
+	.text-content{
+		width: 100%;
+		padding: 10rem 0;
+	}
+	.clock{
+		text-align: end!important;
+	}
+
+}
